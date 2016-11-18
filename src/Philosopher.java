@@ -44,7 +44,7 @@ public class Philosopher extends Thread {
         }
     }
 
-    //拿来玩的
+    //拿来玩的,迷
     public String think() {
         int num = new Random().nextInt(8);
         switch (num) {
